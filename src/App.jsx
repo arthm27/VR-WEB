@@ -5,6 +5,7 @@ import FeatureSection from './components/FeatureSection'
 import { Workflow } from 'lucide-react'
 import Price from './components/Price'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Workflow/>
         <Price/>
         <Testimonials/>
+        <Footer/>
       </div>
     </>
   )
